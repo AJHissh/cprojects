@@ -15,11 +15,9 @@ int main(void)
     }
     while (h < 0);
     {
-    
-    }
-
     float sum = 0;
     float x = 0;
+    }
 
     while (h > 0)
     {
@@ -28,44 +26,36 @@ int main(void)
         {
             h = h - 0.25;
             sum++;
-            printf("%f\n", h);
-                        
+            printf("%f\n", h);                   
         }
+        
         // To subtract between 0.10 - 0.25 from user input
         else if (h <= 0.25 && h >= 0.10) 
-        {
-        
+        { 
             h = h - 0.10;
             sum++;
-            printf("%f\n", h);
-                        
+            printf("%f\n", h)                        
         }
         // To subtract between 0.10 - 0.25 from user input
         else if (h >= .05 && h <= 0.10)
-        {
-        
+        { 
             h = h - .05;
             sum++;
-            printf("%f\n", h);
-                        
+            printf("%f\n", h);                       
         }
         // To subtract between 0.10 - 0.25 from user input
         else if (h >= 0 && h <= 0.05) 
         {
             h = h - .01;
             sum++;
-            printf("%f\n", h);
-                 
+            printf("%f\n", h);               
         }
                 
-        x = sum;
-               
+        x = sum;             
         {
-            printf("%f\n", x);
-
-            {
-    
-            }
+            printf("%f\n", x);        
+        {
+        }
         }
     }
 }
